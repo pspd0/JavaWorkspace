@@ -27,9 +27,11 @@ public class _07_TypeCasting {
 
         double convertedScoreDouble = score; // 191 -> 191.0
         // int -> long -> float -> double (자동 형변환)
+        System.out.println(convertedScoreDouble);
 
         int convertedScoreInt = (int) score_d; // 191.8 -> 191
         // double -> float -> long -> int (수동 형변환)
+        System.out.println(convertedScoreInt);
 
         // 숫자를 문자열로
         String s1 = String.valueOf(93);
